@@ -1,7 +1,17 @@
 export interface Profile {
     id: number;
     name: string;
-    flag: string;
-    area: number;
-    population: number;
+    phone: number;
+    email: string;
+    date: string;
+    province: {
+      id:number,
+      name:string,
+    },
+    city: {
+      id:number,
+      name:string,
+    },
+    street: string;
+    postalcode: number;
   }
