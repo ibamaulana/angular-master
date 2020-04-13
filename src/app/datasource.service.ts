@@ -7,7 +7,7 @@ import {ResDataModal} from './modals/resDataModal';
   providedIn: 'root'
 })
 export class DatasourceService {
-  apiUrl = 'https://reqres.in/api/users?page=2';
+  apiUrl = 'https://medicoys.vantura.id/api/poli';
 
   constructor(private http: HttpClient) { }
 

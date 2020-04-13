@@ -27,11 +27,7 @@ export class JsondataComponent implements OnInit {
       this.dtOptions = {
         data: this.tableData,
         columns: [
-          {title: 'ID', data: 'id'},
-          {title: 'Email', data: 'email'},
-          {title: 'First Name', data: 'first_name'},
-          {title: 'Last Name', data: 'last_name'},
-          {title: 'Avatar', data: 'avatar'},
+          {title: 'Name', data: 'name'},
         ]
       };
     }, err => {}, () => {
